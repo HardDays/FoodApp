@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FoodApp</title>
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.min.css" />
+  
+</head>
+<body>
+
+    <section class="top">
+        <div class="top__mobile-bg"><img src="img/top-bg-mobile.png" alt=""></div>
+        <div class="top__mobile-green"><img src="img/top-green-mobile.svg" alt=""></div>
+
+        <div class="top__bg-image">
+            <img src="img/top-bg.png" alt="">
+            <div class="top__green-bottom"><img src="img/top-green2.svg" alt=""></div>
+            <div class="top__green-right"><img src="img/top-green3.svg" alt=""></div>
+        </div>
+        <div class="top__phone-bottom"><img src="img/top-phone.png" alt=""></div>
+
+        <div class="container">
+            <div class="top__circle"><img src="img/form2.svg" alt=""></div>
+            <div class="top__circle"><img src="img/form3.svg" alt=""></div>
+            <div class="top__circle"><img src="img/form4.svg" alt=""></div>
+            <div class="top__circle"><img src="img/form4.svg" alt=""></div>
+            <div class="top__circle"><img src="img/form1.svg" alt=""></div>
+            <div class="top__circle"><img src="img/form2.svg" alt=""></div>
+            <div class="top__green"><img src="img/top-green1.svg" alt=""></div>
+
+            <header class="header">
+                <a href="#who" class="header__link scroll-to"><?=$lang->get("LABEL_WHO")?></a>
+                <a href="#how" class="header__link scroll-to"><?=$lang->get("LABEL_WORK")?></a>
+                <a href="#" class="app-icon"><img src="img/app-icon.svg" alt=""></a>
+                <a href="#tariffs" class="header__link scroll-to"><?=$lang->get("LABEL_TARIF")?></a>
+                <a href="#join" class="header__link scroll-to"><?=$lang->get("LABEL_JOIN")?></a>
+            </header>
+
+            <button class="top__mobile-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="top__content">
+                <h1 class="top__title"><strong><?=$lang->get("LABEL_INCOME")?></strong><?=$lang->get("LABEL_INCOME_CONT")?></h1>
+                <p class="top__text"><?=$lang->get("LABEL_DESCR")?></p>
+                <a href="#delivery" class="top__button scroll-to"><?=$lang->get("BTN_GET_PACKAGE")?></a>
+                <span class="top__arrow"><img src="img/top-arrow.svg" alt=""></span>
+                <a href="#how" class="top__how scroll-to"><?=$lang->get("LABEL_WORK")?></a>
+            </div>
+
+            <div class="top__button top__button--connect"><?=$lang->get("BTN_CONNECT")?></div>
+        </div>
+    </section>
+
+    <section class="about" id="who">
+        <div class="container">
+            <div class="about__flex">
+                <div class="about__left">
+                    <div class="about__phone"><img src="img/about-phone.png" alt=""></div>
+                    <div class="about__plate"><img src="img/about-plate.png" alt=""></div>
+                </div>
+                <div class="about__content">
+                    <p class="about__name">FoodApp —</p>
+                    <p class="about__title"><?=$lang->get("ABOUT_CONTENT1")?></p>
+                    <p class="about__text"><?=$lang->get("ABOUT_CONTENT2")?></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="container">
+            <div class="partners__block">
+                <div class="partners__content"><?=$lang->get("FASTFOOD")?></div>
+                <div class="partners__right">
+                    <div class="partners__square"><img src="img/starbucks.png" alt=""></div>
+                    <div class="partners__square"><img src="img/bk.png" alt=""></div>
+                    <div class="partners__square"><img src="img/mcdonalds.png" alt=""></div>
+                    <div class="partners__square"><img src="img/dodo.png" alt=""></div>
+                    <div class="partners__square"><img src="img/kfc.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="percents">
+        <div class="container">
+            <div class="percents__circle"><img src="img/perc1.svg" alt=""></div>
+            <div class="percents__circle"><img src="img/perc2.svg" alt=""></div>
+            <div class="percents__circle"><img src="img/perc3.svg" alt=""></div>
+            <div class="percents__circle"><img src="img/perc4.svg" alt=""></div>
+
+            <div class="percents__flex">
+                <div class="percents__item">
+                    <div class="percents__num"><span>+25%</span></div>
+                    <p class="percents__text"><?=$lang->get("PERCENT1")?></p>
+                </div>
+                <div class="percents__item">
+                    <div class="percents__num"><span>+300%</span></div>
+                    <p class="percents__text"><?=$lang->get("PERCENT2")?></p>
+                </div>
+                <div class="percents__item">
+                    <div class="percents__num"><span>80%</span></div>
+                    <p class="percents__text"><?=$lang->get("PERCENT3")?></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-section" id="delivery">
+        <div class="container">
+            <div class="form-section__circle"><img src="img/form1.svg" alt=""></div>
+            <div class="form-section__circle"><img src="img/form2.svg" alt=""></div>
+            <div class="form-section__circle"><img src="img/form3.svg" alt=""></div>
+            <div class="form-section__circle"><img src="img/form4.svg" alt=""></div>
+
+            <div class="form-section__flex form-section__flex--aqua">
+                <div class="form-section__content">
+                    <p class="form-section__title"><?=$lang->get("THREE_DAYS_HEAD")?></p>
+                    <p class="form-section__text"><?=$lang->get("THREE_DAYS_DESC")?></p>
+                </div>
+                <form class="form-section__form">
+                    <div class="form-section__inputs">
+                        <input id="middle-input-name" type="text" class="form-section__input data-input" placeholder="Ваше имя">
+                        <input id="middle-input-email" type="email" class="form-section__input data-input" placeholder="Email">
+                    </div>
+                    <div class="form-section__button-wrap">
+                        <button onclick="SendData({'email':'middle-input-email', 'name':'middle-input-name'});return false;" class="form-section__button"><?=$lang->get("THREE_DAYS_BTN")?></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="steps" id="how">
+        <div class="container">
+            <div class="steps__circle"><img src="img/form4.svg" alt=""></div>
+            <div class="steps__circle"><img src="img/form1.svg" alt=""></div>
+
+            <h2 class="steps__title"><?=$lang->get("STEP_TITLE")?>!</h2>
+            <p class="steps__subtitle"><?=$lang->get("STEP_DESC")?></p>
+
+            <div class="steps__wrap">
+                <div class="steps__flex">
+                    <div class="steps__img-wrap">
+                        <div class="steps__img steps__img--circle"><img src="img/IMG-1.png" alt=""></div>
+                    </div>
+                    <div class="steps__content">
+                        <span class="steps__num steps__num--purple">1</span>
+                        <p class="steps__name"><?=$lang->get("STEP1_TITLE")?></p>
+                        <p class="steps__text"><?=$lang->get("STEP1_DESC")?></p>
+                    </div>
+                </div>
+                <div class="steps__flex">
+                    <div class="steps__img-wrap">
+                        <div class="steps__img steps__img--circle"><img src="img/step1.png" alt=""></div>
+                    </div>
+                    <div class="steps__content">
+                        <span class="steps__num steps__num--rose">2</span>
+                        <p class="steps__name"><?=$lang->get("STEP2_TITLE")?></p>
+                        <p class="steps__text"><?=$lang->get("STEP2_DESC")?></p>
+					</div>
+                </div>
+                <div class="steps__flex">
+                    <div class="steps__img-wrap">
+                        <div class="steps__img"><img src="img/step3.svg" alt=""></div>
+                    </div>
+                    <div class="steps__content">
+                        <span class="steps__num steps__num--sea">3</span>
+                        <p class="steps__name"><?=$lang->get("STEP3_TITLE")?></p>
+                        <p class="steps__text"><?=$lang->get("STEP3_DESC")?></p>
+                    </div>
+                </div>
+                <div class="steps__flex">
+                    <div class="steps__img-wrap">
+                        <div class="steps__img"><img src="img/IMG-4.png"></div>
+                    </div>
+                    <div class="steps__content">
+                        <span class="steps__num steps__num--yellow">4</span>
+                        <p class="steps__name"><?=$lang->get("STEP4_TITLE")?></p>
+                        <p class="steps__text"><?=$lang->get("STEP4_DESC")?></p>
+                    </div>
+                </div>
+                <div class="steps__flex">
+                    <div class="steps__img-wrap">
+                        <div class="steps__img"><img src="img/IMG-5.png" alt=""></div>
+                    </div>
+                    <div class="steps__content">
+                        <span class="steps__num steps__num--green">5</span>
+                        <p class="steps__name"><?=$lang->get("STEP5_TITLE")?></p>
+                        <p class="steps__text"><?=$lang->get("STEP5_DESC")?></p>
+						<div class="steps__graph"><img src="img/IMG-5_2.png" alt=""></div>
+					</div>
+                </div>
+                <div class="steps__flex">
+                    <div class="steps__img-wrap">
+                        <div class="steps__img steps__img__down"><img src="img/IMG-6.png" alt=""></div>
+                    </div>
+                    <div class="steps__content">
+                        <span class="steps__num steps__num--dark_sea">6</span>
+                        <p class="steps__name"><?=$lang->get("STEP6_TITLE")?></p>
+                        <p class="steps__text"><?=$lang->get("STEP6_DESC")?></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tariffs" id="tariffs">
+        <div class="container">
+            <div class="tariffs__circle"><img src="img/form3.svg" alt=""></div>
+            <div class="tariffs__circle"><img src="img/tariffs2.svg" alt=""></div>
+
+            <h2 class="tariffs__title"><?=$lang->get("TARIF")?></h2>
+            <p class="tariffs__subtitle"><?=$lang->get("TARIF_DESC")?></p>
+
+            <div class="tariffs__flex">
+                <div class="tariffs__item-wrap">
+                    <div class="tariffs__item tariffs__item--basic">
+                        <div class="tariffs__head">
+                            <p class="tariffs__name">Basic</p>
+                            <p class="tariffs__price"><span>999₽</span><?=$lang->get("BASIC_COST")?></p>
+                        </div>
+                        <ul class="tariffs__list">
+                            <li class="tariffs__option"><?=$lang->get("BASIC1")?></li>
+							<li class="tariffs__option"><?=$lang->get("BASIC2")?></li>
+							<li class="tariffs__option"><?=$lang->get("BASIC3")?></li>
+							<li class="tariffs__option"><?=$lang->get("BASIC4")?></li>
+							<li class="tariffs__option"><?=$lang->get("BASIC5")?></li>
+                        </ul>
+                    </div>
+                    <button class="tariffs__button open-modal"><?=$lang->get("SEND_DATA")?></button>
+                </div>
+                <div class="tariffs__item-wrap">
+                    <div class="tariffs__item tariffs__item--standart">
+                        <div class="tariffs__head">
+                            <p class="tariffs__name">Standart</p>
+							<p class="tariffs__sale-price"><?=$lang->get("STANDART_COST")?></p>
+                            <p class="tariffs__sale-text"><?=$lang->get("STANDART_DESC")?></p>
+                        </div>
+                        <div class="tariffs__sale">
+							<p class="tariffs__price"><?=$lang->get("STANDART_SALE")?></p>
+						</div>
+                        <ul class="tariffs__list">
+                            <li class="tariffs__option"><?=$lang->get("STANDART1")?></li>
+                            <li class="tariffs__option"><?=$lang->get("STANDART2")?></li>
+                            <li class="tariffs__option"><?=$lang->get("STANDART3")?></li>
+                            <li class="tariffs__option"><?=$lang->get("STANDART4")?></li>
+                            <li class="tariffs__option"><?=$lang->get("STANDART5")?></li>
+                            <li class="tariffs__option tariffs__option--additional"><?=$lang->get("STANDART6")?></li>
+                            <li class="tariffs__option tariffs__option--additional"><?=$lang->get("STANDART7")?></li>
+                            <li class="tariffs__option tariffs__option--additional"><?=$lang->get("STANDART8")?></li>
+                            <li class="tariffs__option tariffs__option--additional"><?=$lang->get("STANDART9")?></li>
+                        </ul>
+                    </div>
+                    <button class="tariffs__button open-modal"><?=$lang->get("SEND_DATA")?></button>
+                </div>
+                <div class="tariffs__item-wrap">
+                    <div class="tariffs__item tariffs__item--premium">
+                        <div class="tariffs__head">
+                            <p class="tariffs__name">Premium</p>
+							<p class="tariffs__sale-price"><?=$lang->get("PREMIUM_COST")?></p>
+                            <p class="tariffs__sale-text"><?=$lang->get("PREMIUM_DESC")?></p>
+                        </div>
+                        <div class="tariffs__sale">
+							<p class="tariffs__price"><?=$lang->get("PREMIUM_SALE")?></p>
+						</div>
+                        <ul class="tariffs__list">
+                            <li class="tariffs__option"><?=$lang->get("PREMIUM1")?></li>
+                            <li class="tariffs__option"><?=$lang->get("PREMIUM2")?></li>
+                            <li class="tariffs__option"><?=$lang->get("PREMIUM3")?></li>
+                            <li class="tariffs__option"><?=$lang->get("PREMIUM4")?></li>
+                            <li class="tariffs__option"><?=$lang->get("PREMIUM5")?></li>
+                            <li class="tariffs__option"><?=$lang->get("PREMIUM6")?>/li>
+                            <li class="tariffs__option"><?=$lang->get("PREMIUM7")?></li>
+                            <li class="tariffs__option"><?=$lang->get("PREMIUM8")?></li>
+                            <li class="tariffs__option"><?=$lang->get("PREMIUM9")?></li>
+                            <li class="tariffs__option tariffs__option--additional"><?=$lang->get("PREMIUM10")?></li>
+                            <li class="tariffs__option tariffs__option--additional"><?=$lang->get("PREMIUM11")?></li>
+                        </ul>
+                    </div>
+                    <button class="tariffs__button open-modal"><?=$lang->get("SEND_DATA")?></button>
+                </div>
+				<div class="tariffs__item-wrap">
+                    <div class="tariffs__item tariffs__item--pro">
+                        <div class="tariffs__head">
+                            <p class="tariffs__name">Pro</p>
+                            <p class="tariffs__price">Стоимость<br>расчитывается<br><strong><span>индивидуально</span></strong></p>
+                        </div>
+                        <ul class="tariffs__list">
+                            <li class="tariffs__option">Разработка собственного мобильного приложения для заведения меню</li>
+                            <li class="tariffs__option">Подключение любых опций тарифа PREMIUM на ваш выбор</li>
+                            <li class="tariffs__option">Создание сайта для заведения</li>
+                            <li class="tariffs__option">Добавление и настройка любых функций по вашим пожеланиям</li>
+                        </ul>
+                    </div>
+                    <button class="tariffs__button open-modal"><?=$lang->get("SEND_DATA")?></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="already">
+        <div class="container">
+            <h2 class="already__title"><?=$lang->get("APPCONN")?></h2>
+
+            <div class="already__block">
+                <div class="already__item"><img src="img/already1.png" alt=""></div>
+                <div class="already__item"><img src="img/already2.jpg" alt=""></div>
+                <div class="already__item"><img src="img/already3.jpg" alt=""></div>
+                <div class="already__item"><img src="img/already4.jpg" alt=""></div>
+                <div class="already__item"><img src="img/already5.jpg" alt=""></div>
+                <div class="already__item"><img src="img/already6.jpg" alt=""></div>
+                <div class="already__item"><img src="img/already7.png" alt=""></div>
+                <div class="already__item"><img src="img/already8.svg" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-section form-section--green" id="join">
+        <div class="container">
+            <div class="form-section__circle"><img src="img/form1.svg" alt=""></div>
+            <div class="form-section__circle"><img src="img/form2.svg" alt=""></div>
+            <div class="form-section__circle"><img src="img/form3.svg" alt=""></div>
+            <div class="form-section__circle"><img src="img/form4.svg" alt=""></div>
+
+            <div class="form-section__flex">
+                <div class="form-section__content">
+                    <p class="form-section__title"><?=$lang->get("CONNECT")?></p>
+                    <p class="form-section__text"><?=$lang->get("CONNECT_DESC")?></p>
+                </div>
+                <form class="form-section__form">
+                    <div class="form-section__inputs">
+                        <input id="bottom-input-name" type="text" class="form-section__input data-input" placeholder="Ваше имя">
+                        <input id="bottom-input-email" type="email" class="form-section__input data-input" placeholder="Email">
+                    </div>
+                    <div class="form-section__button-wrap">
+                        <button onclick="SendData({email:'bottom-input-email', name:'bottom-input-name'});return false;" class="form-section__button"><?=$lang->get("THREE_DAYS_BTN")?></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__flex">
+                <div class="footer__left">
+                    <a href="#" class="app-icon"><img src="img/app-icon.svg" alt=""></a>
+                    <div class="footer__follow">
+                        <p><?=$lang->get("LABEL_FOLLOW")?></p>
+                        <a href="https://www.facebook.com/itsfoodapp"><img src="img/fb.svg" alt=""></a>
+                        <a href="https://www.instagram.com/itsfood.app/"><img src="img/insta.svg" alt=""></a>
+						<a href="https://vk.com/itsfoodapp"><img src="img/vk.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer__center">
+                    <div class="footer__apps">
+                        <p><?=$lang->get("LABEL_APP")?></p>
+                        <a href="https://play.google.com/store/apps/details?id=io.foodapp.android&hl=en"><img src="img/google-play.png" alt=""></a>
+                        <a href="https://apps.apple.com/ru/app/foodapp/id1421848543"><img src="img/app-store.png" alt=""></a>
+                    </div>
+                    <p class="footer__copyright">Copyright © 2020 FoodApp. All rights reserved.</p>
+                </div>
+                <nav class="footer__menu">
+                    <a href="#who" class="footer__link scroll-to"><?=$lang->get("LABEL_WHO")?></a>
+                    <a href="#how" class="footer__link scroll-to"><?=$lang->get("LABEL_WORK")?></a>
+                    <a href="#tariffs" class="footer__link scroll-to"><?=$lang->get("LABEL_TARIF")?></a>
+                    <a href="#join" class="footer__link scroll-to"><?=$lang->get("LABEL_JOIN")?></a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="form-modal">
+        <div class="modal__content">
+            <span class="modal__close"></span>
+
+            <p class="modal__title">Оставьте ваш email</p>
+            <p class="modal__text">и получите инструкцию «как увеличить все показатели ресторана на 30% за 2 месяца».</p>
+
+            <input id="modal-input-email"  type="text" class="modal__input data-input" placeholder="Email">
+
+            <button onclick="SendData({email:'modal-input-email'});return false;" class="modal__button">Отправить</button>
+        </div>
+    </div>
+
+    <div class="modal" id="success-modal">
+        <div class="modal__content">
+            <span class="modal__close"></span>
+
+            <p class="modal__title">Ваша заявка принята</p>
+            <p class="modal__text">Совсем скоро мы с вами свяжемся!</p>
+        </div>
+    </div>
+
+    <div class="modal" id="error-modal">
+        <div class="modal__content">
+            <span class="modal__close"></span>
+
+            <p class="modal__title">Что-то пошло не так...</p>
+            <p class="modal__text">К сожалению, при отправке заявки произошла ошибка, попробуйте повторить позднее.</p>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js?v=1.1"></script>
+</body>
+</html>

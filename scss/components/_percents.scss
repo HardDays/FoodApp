@@ -1,0 +1,158 @@
+@import "layout/var";
+
+.percents {
+
+  &__flex {
+    display: flex;
+    justify-content: center;
+
+    @media (max-width: $xs) {
+      flex-direction: column;
+    }
+  }
+
+  &__item {
+    margin: 0 48px;
+
+    @media (max-width: $sm) {
+      margin: 0 30px;
+    }
+
+    @media (max-width: $xs) {
+      margin-top: 30px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+
+  &__num {
+    background: linear-gradient(90deg, #0AB0BB 0%, #00A8F0 100%);
+
+    span {
+      display: block;
+      font-family: 'Quicksand Bold';
+      font-weight: bold;
+      font-size: 75px;
+      background: white;
+      mix-blend-mode: screen;
+      text-align: center;
+
+      @media (max-width: $md) {
+        font-size: 60px;
+      }
+
+      @media (max-width: $sm) {
+        font-size: 50px;
+      }
+
+      @media (max-width: $xs) {
+        text-align: center;
+      }
+    }
+  }
+
+  &__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 156.5%;
+    margin-top: 16px;
+  }
+
+  .container {
+    position: relative;
+    padding: 158px 0 121px;
+
+    @media (max-width: $sm) {
+      padding: 100px 0;
+    }
+  }
+
+  &__circle {
+    position: absolute;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04);
+    border-radius: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:nth-child(1) {
+      background: #F7C154;
+      width: 46px;
+      height: 46px;
+      top: 158px;
+      left: 67px;
+
+      @media (max-width: $md) {
+        left: 30px;
+        top: 120px;
+      }
+
+      @media (max-width: $sm) {
+        left: 0;
+        top: 60px;
+      }
+
+      @media (max-width: $xs) {
+        top: 30px;
+        left: 15px;
+      }
+    }
+
+    &:nth-child(2) {
+      background: #FD8A97;
+      width: 38px;
+      height: 38px;
+      top: 48px;
+      left: 166px;
+
+      @media (max-width: $sm) {
+        top: 20px;
+      }
+    }
+
+    &:nth-child(3) {
+      background: #F7C154;
+      width: 46px;
+      height: 46px;
+      bottom: 104px;
+      right: 113px;
+
+      @media (max-width: $md) {
+        bottom: 50px;
+      }
+
+      @media (max-width: $sm) {
+        bottom: 20px;
+        right: 200px;
+      }
+
+      @media (max-width: $xs) {
+        right: 150px;
+      }
+    }
+
+    &:nth-child(4) {
+      background: #668FCD;
+      width: 42px;
+      height: 42px;
+      bottom: 240px;
+      right: 72px;
+
+      @media (max-width: $md) {
+        right: 30px;
+        bottom: 150px;
+      }
+
+      @media (max-width: $sm) {
+        right: 0;
+        bottom: 70px;
+      }
+
+      @media (max-width: $xs) {
+        right: 15px;
+      }
+    }
+  }
+}
