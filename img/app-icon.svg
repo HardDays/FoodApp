@@ -14,7 +14,7 @@
 <path fill-rule="evenodd" clip-rule="evenodd" d="M93.8853 133.314C93.3996 132.825 93.4022 132.035 93.8912 131.55L102.418 123.079C102.907 122.593 103.697 122.596 104.183 123.085C104.669 123.573 104.666 124.364 104.177 124.849L95.6501 133.32C95.1611 133.806 94.371 133.803 93.8853 133.314Z" fill="white"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M96.4586 129.041C97.0074 128.624 97.7902 128.731 98.2072 129.279L104.499 137.559C104.916 138.108 104.81 138.891 104.261 139.308C103.712 139.725 102.929 139.618 102.512 139.07L96.2201 130.789C95.8031 130.241 95.9099 129.458 96.4586 129.041Z" fill="white"/>
 <defs>
-<filter id="filter0_d" x="0" y="0" width="176" height="176" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d" x="0" y="0" width="46" height="46" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dy="4"/>
