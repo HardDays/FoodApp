@@ -10,8 +10,8 @@
 			$langs[$n] = $v ? $v : 1; // Если нет q, то ставим значение 1
 		arsort($langs); // Сортируем по убыванию q
 		$default_lang = key($langs); // Берём 1-й ключ первого (текущего) элемента (он же максимальный по q)
-		// if(strpos($default_lang, "ru") !==false)return "ru";
-		// elseif(strpos($default_lang, "cz") !==false)return "cz";
+		if(strpos($default_lang, "ru") !==false)return "ru";
+		elseif(strpos($default_lang, "cz") !==false)return "cz";
 		return "ru";
 	}
 	
